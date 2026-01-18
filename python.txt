@@ -1,0 +1,16 @@
+                                    PYTHON INICIAL
+
+                                    OBSERVAÇÕES 
+
+- Quando for número não precisa colocar aspas dentro do parênteses 
+
+- Nomedavariavel = x
+
+- Pode tambem fazer variavela = variavelAntiga + vareavelNova
+
+
+
+
+                                    COMANDOS EM GERAL
+
+- print() => imprimir, ver informações no terminal
