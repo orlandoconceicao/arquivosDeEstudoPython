@@ -1,63 +1,3 @@
-                                # MATERIAL DE ESTUDO - PYTHON
-                                
-                                # Variáveis
-                                
-# Criando variáveis 
-faturamento = 1500 # Pode substituir o número dado pelo o nome da variável
-custo = 1000 #int => número inteiro
-lucro = 500
-imposto = 0.15 #float => número decimal
-novas_vendas = 333 
-faturamento = faturamento + novas_vendas # Pode somar variáveis 
-
-# Colocando print dentro do print separado por vírgula
-print("Faturamento:", 1500) # Mais indicado  usar váriaveis
-print("imposto:", imposto * faturamento)
-print("Custo:",custo)
-print("Lucro:", faturamento - custo - imposto)
-
-# Puxando texto da variável
-mensagem = "O lucro foi de 608.0" # String => texto
-print(mensagem)
-
-teve_lucro = True # Boolean => True or False
-
-                                # OPERADORES MATEMÁTICOS
-
-# Criando peradores 
-dois = 2
-cinco = 5 
-dez = 10
-treze = 13
-
-adição = dois + dez 
-print("Adição", adição)
-
-subtração = cinco - dois
-print("Subtração:", subtração)
-
-multiplicação = dois * cinco 
-print("multiplicação:", multiplicação)
-
-# Mod => sobra da divisão
-mod = cinco / dois 
-print("Mod:", mod)
-
-mod_inteiro = int(cinco / dois)
-print("Mod_inteiro:", mod_inteiro)
-
-mod_arredondado = round(treze / cinco)
-print("Mod_arredondado:", mod_arredondado)
-
-# Floor division => parte inteira da divisão
-divisão_um = cinco // dois
-print("Divisão 01:", divisão_um)
-
-divisão_dois = dez // cinco
-print("Divisão 02:", divisão_dois)
-
-# Formatação numerica trocar o . por _
-um_milhao = 1_000_000
                                 # TEXTOS E STRINGS
 
 Produto = 300
@@ -98,7 +38,7 @@ espaçosx = " espaços desnecessarios "
 print(espaçosx.strip())
 
 
-# Ver quantos caracteres tem no texto se usa len()
+# Ver quantos caracteres tem no texto se usa len() vem de lenght => comprimento/tamanho
 texto03 = "um texto para ser contado."
 print(len(texto03))
 
@@ -133,9 +73,7 @@ texto = "Aprendendo a contar letras"
 quantidade = texto.lower().count("a")
 print(quantidade)
 
-##################################################################################################
-
-# Atividade
+                                # Atividade
 
 # Crie uma mensagem com o texto "bem-vindo ao curso de python!"
     # Substitua "python" por "FastAPI".
@@ -164,9 +102,3 @@ print(frase1)
 nome2 = "Orlando Conceicão"
 quantos_o = nome2.lower().count("o")
 print(quantos_o)
-
-
-
-
-
-
