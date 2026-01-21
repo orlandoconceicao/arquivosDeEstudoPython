@@ -1,4 +1,7 @@
                                 # TEXTOS E STRINGS
+                                
+# and = so executa se a primeira condição for verdadeira e a segunda tambem
+# or = executa se uma das condições for verdadeira
 
 Produto = 300
 Ganho = 900
