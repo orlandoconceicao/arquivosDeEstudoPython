@@ -7,7 +7,7 @@ lista_vendas = [10, 30, 50, 20, 40]
 # Para puxar o ultimo da lista utiliza [-1] => que conta de traz para frente
 # começa a contar do 0 
 # Selecionar item da lista
-print("Posição da lista 02", lista_vendas[2])
+print("Posição da lista 02:", lista_vendas[2])
 
 # Mostrar o tamanho da lista
 
@@ -38,7 +38,7 @@ print("arroz" in lista_produtos)
 posicao = lista_produtos.index("alface")
 print("Pocição do alface:", posicao)
 
-# Pegar tudo depois de alum produto
+# Pegar tudo depois de algum produto
 pedaco_lista = lista_produtos[posicao: ]
 print(pedaco_lista)
 
@@ -74,7 +74,7 @@ print(lista_produtos)
 lista_produtos.insert(0, "coca-cola")
 print(lista_produtos)
 
-# Contar quantas vezes um item esta na lisat se usa .count()
+# Contar quantas vezes um item esta na lista se usa .count()
 lista_produtos.append("arroz")
 print(lista_produtos)
 print(lista_produtos.count("arroz"))

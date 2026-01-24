@@ -1,4 +1,4 @@
-                                # Variáveis
+                                # VARIAVEIS
                                 
 # Criando variáveis 
 faturamento = 1500 # Pode substituir o número dado pelo o nome da variável

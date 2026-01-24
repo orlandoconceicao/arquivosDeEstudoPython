@@ -12,7 +12,7 @@
 # Exemplo 01
 
 faturamento = 1000
-custo = 200
+custo = 2000
 
 lucro = faturamento - custo
 

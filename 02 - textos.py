@@ -27,7 +27,7 @@ print(minusculo.lower())
 maiusculo = "tudo maiúsculo"
 print(maiusculo.upper())
 
-# DEixar primeira letra maiúscula se usa .capitalize()
+# Deixar primeira letra maiúscula se usa .capitalize()
 meu_nome = "orlando conceicao"
 meu_nome = meu_nome.capitalize()
 print(meu_nome)
