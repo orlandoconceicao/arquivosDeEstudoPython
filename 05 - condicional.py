@@ -4,6 +4,7 @@
     # O que eu quero que aconteça se essa condição for verdadeira
     # Tem que ter o tab aqui 
 #else:
+# ler o else como (caso ao contrario)
     # O que eu quero que aconteça se essa condição for falsa
     # Pode ter varias linhas no if e no else
 # So pode ter else se tiver if antes

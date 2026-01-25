@@ -18,7 +18,7 @@ for preco in lista_precos:
     
 
 # Atividade 01
-# Produtos de até 1000 pagam 1%. Produtos acima de 1000 pagam 15% de imposto
+# Produtos de até 1000 pagam 10%. Produtos acima de 1000 pagam 15% de imposto
 for preco in lista_precos:
     if preco > 1000:
         taxa = .15
